@@ -1,14 +1,22 @@
-#!/usr/bin/env python3
+
+class Person: 
+    def talk(self):
+        print ("Hello World")
+
+
+# Creating an instance of the Person class
+fido = Person()
+# Calling the talk() method on the instance
+fido.talk()    
 
 class Person:
-    # Class body goes here
-    def sit(self):
-        print("Hello World!")
-
-    #Instance method definition
     def walk(self):
         print("The person is walking.")
-        
+
+fido = Person()
+fido.walk()   
+
+pass     
 # # Create an object of the class
 # person1 = Person()
 
@@ -17,3 +25,6 @@ class Person:
 # person1.walk()  # Output: Walking...
 # pass
 
+
+
+  
